@@ -178,6 +178,7 @@ main .wrapper .container article .continue-ridding .continue {
   line-height: 4em;
   padding: 0 1.5em;
   position: relative;
+  border-radius: 0 2px 2px 0;
 }
 main .wrapper .container article .continue-ridding .continue::after {
   content: "";
@@ -185,10 +186,11 @@ main .wrapper .container article .continue-ridding .continue::after {
   width: 0;
   height: 0;
   border-top: 2em solid transparent;
-  border-left: 1em solid #47484d;
+  border-left: 1.5em solid #47484d;
   border-bottom: 2em solid transparent;
   position: absolute;
-  right: -1em;
+  right: -1.4em;
+  border-radius: 1px 0 0 1px;
 }
 main .wrapper .container article .continue-ridding .logo_between {
   margin: 0;
